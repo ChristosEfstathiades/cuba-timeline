@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 <style>
 * {
   box-sizing: border-box;
@@ -197,6 +197,22 @@ img {
     </div>
   </div>
 </div>
-<script src="index.js" charset="utf-8"></script>
+<script>
+ScrollReveal().reveal('.container', {
+
+  duration: 1000,
+  viewFactor: 0.6,
+  distance: '350px'
+});
+
+ScrollReveal().reveal('.right', {
+  origin:'right'
+});
+
+ScrollReveal().reveal('.left', {
+  origin:'left'
+});
+
+</script>
 </body>
 </html>
