@@ -6,11 +6,13 @@
 <style>
 * {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body {
   background-color: #474e5d;
-  font-family: Helvetica, sans-serif;
+  /* font-family: Helvetica, sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -32,12 +34,21 @@ body {
   margin-left: -3px;
 }
 
+img {
+  width: 80%;
+  margin: auto;
+  height:200px;
+  background-position: center center;
+  background-size: contain;
+}
+
 /* Container around content */
 .container {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
+  visibility: hidden;
 }
 
 /* The circles on the timeline */
@@ -136,6 +147,8 @@ body {
   .right {
   left: 0%;
   }
+
+
 }
 </style>
 </head>
@@ -144,38 +157,43 @@ body {
 <div class="timeline">
   <div class="container left">
     <div class="content">
-      <h2>2017</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h2>1961-bay of pigs</h2>
+      <p>Castro reformed Cuba, all business's in Cuba were now owned by Cuba, land was shared out, medical care and education was provided by the state, the upper classes were scared about losing their wealth. Castro banned elections so he would remain leader.</p>
+      <p>In response to this new reform, Kennedy organised the bay of pigs invasion. The CIA planned to group together Cuban exiles who were then trained by the CIA. The plan was to invade Cuba with the exiles and air force and hope that the Cubans would join them.</p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
-      <h2>2016</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h2>1961-what went wrong?</h2>
+      <p>Last minute Kennedy cancelled the air force so the exiles were open, 200/1500 were killed and the Cubans didn't join the invasion because they supported Castro's reformation.</p>
+      <img src="bay.jpg" alt="">
     </div>
   </div>
   <div class="container left">
     <div class="content">
-      <h2>2015</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h2>1962-cuban missile crisis</h2>
+      <p>Kennedy was shown photographs proving that the Soviets were building 40 ballistic missile sites on Cuba, his choices were to either bomb Cuba which could spark a war but it could also destroy all the sites, he could also invade Cuba and secure the bombs but they would be seen as the aggressors, another option was to form a blockade around Cuba which is not as aggressive as the previos options and they could stop further missiles arriving in Cuba.</p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
-      <h2>2012</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h2>1962-naval blockade</h2>
+      <p>Kennedy decides to order a blockade around Cuba and military alert is set to DEFCON 3 and castro prepares all military forces, Soviet ships reach the blockade border but they hold their positions. An invasion of Cuba would risk the Cuban missiles being fired. DEFCON 2 is set. </p>
+      <img src="navy.jpg" alt="">
     </div>
   </div>
   <div class="container left">
     <div class="content">
-      <h2>2011</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h2>1962-first letter</h2>
+      <p>Khrushchev sends a letter stating that they would remove the missiles from Cuba if Kennedy agrees to a non-invasion pledge against Cuba. Kennedy was happy with this deal as he didn't intend to invade Cuba.</p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
-      <h2>2007</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h2>1962-second letter</h2>
+      <p>U2 spy plane is shot down by Cubans, killing the pilot. War plane from Alaska flies into soviet air space and is almost shot down by Soviets. This causes the Soviets to distrust the USA.</p>
+      <p>Khrushchev send another letter stating that now the US must also remove its missiles from Turkey. Keneedy was not happy with this as this was an additional condition to the original non-invasion pledge deal.</p>
+      <p>Kennedy proposed a deal stating that he will sign a non-inavsion pledge if the cuban missiles are removed and that the US will remove the missiles from Turkey in six months but the USSR must be discrete about it.</p>
     </div>
   </div>
 </div>
